@@ -31,11 +31,12 @@ Before you come to the Make Day, there are a couple of basics you need to have u
 - [ ] You've learned how to [add a device to the AWS IoT Cloud](#aws-iot)
 - [ ] Do the [Sphero Activity](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript): <i>Learn to Control Sphero Programmatically in Javascript</i>
 
-## Meta
+### Meta
 
 - [ ] Write down one thing thing you want to figure out on the Make Day
 - [ ] Be awesome :)
 
+<br>
 
 ## Prep Material
 
