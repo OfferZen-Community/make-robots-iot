@@ -18,8 +18,9 @@ Before you come to the Make Day, there are a couple of basics you need to have u
 
 ### Admin
 
-- [ ] Join the [Make Slack Team]() <b>TODO: ADD LINK</b>
-- [ ] Ensure you know the [agenda and location](agenda.md) for the Make Day
+- [ ] Say hi on the Make-Oscar Slack channel :)
+- [ ] Check the [agenda and location](agenda.md) for the Make Day
+- [ ] Write down one thing you want to figure out
 
 ### Tech Prep
 
@@ -27,11 +28,6 @@ Before you come to the Make Day, there are a couple of basics you need to have u
 - [ ] Ensure you can log in to AWS with [the provided details](#aws-login-instructions)
 - [ ] Learn how to [add a device to the AWS IoT Cloud](#aws-iot)
 - [ ] Do the [Sphero Activity](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript): <i>Learn to Control Sphero Programmatically in Javascript</i>
-
-### Meta
-
-- [ ] Write down one thing thing you want to figure out on the Make Day
-- [ ] Be awesome :)
 
 ## Prep Material
 
