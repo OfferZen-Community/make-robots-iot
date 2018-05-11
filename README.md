@@ -12,23 +12,21 @@ We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi!
 <b>The aim of the day is to learn new things. You do not need to achieve specific goals.</b> The agenda of the day caters for varying levels of experience and different people will learn different things by playing with the same tools.
 
 
-## Prep Checklist
+## Preparing for the Make Day
 
-Before you come to the Make Day, there are a couple of basics you need to have under your belt. Complete the items on this checklist and you’ll be ready to take on the challenges of the Make Day. If you get stuck on any of these, please shout in Make Slack.
+Before you attend the Make Day, there are a couple of basics you should have under your belt. Makers that arrive well prepared get the most out of their Make Days. If you get stuck on any of these, please shout in Make Slack.
 
 ### Admin
 
-- [ ] Say hi on the Make-Oscar Slack channel :)
+- [ ] Say hi on the #make-oscar Slack channel :)
 - [ ] Check the [agenda and location](agenda.md) for the Make Day
-- [ ] Write down one thing you want to figure out
+- [ ] Think of one thing you'd like to figure out and share it with your team on #make-oscar
 
 ### Activities to help you prepare
 
-- [ ] Read through the Prep Material
-- [ ] Ensure you can log in to AWS with [the provided details](#aws-login-instructions)
-- [ ] Do [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard)
-- [ ] Learn how to [add a device to the AWS IoT Cloud](#aws-iot)
-- [ ] Do the [Sphero Activity](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript): <i>Learn to Control Sphero Programmatically</i>
+- [ ] [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard)
+- [ ] [Add a device to the AWS IoT Cloud](#aws-iot)
+- [ ] [Control a virtual Sphero with JavaScript](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript)
 
 ## Prep Material
 
@@ -51,14 +49,9 @@ The OS we'll be using is Raspbian, which is a Debian-based Linux distro that is 
 
 IoT simply means that devices are connected to the internet and are sending and receiving data or instructions to and from an IoT platform. AWS provides [several services](https://aws.amazon.com/iot/) for managing IoT devices. We'll be using the [AWS IoT Core](https://aws.amazon.com/iot-core/) service for connecting and managing our Spheros. If you are completely new to IoT, then watch <b>[this fantastic introduction](https://www.youtube.com/watch?v=WAp6FHbhYCk)</b> to AWS IoT to get a better idea.
 
-* <b>Prep Activity:</b> Do [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard).
+* <b>Prep Activity:</b> [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard).
 
-* <b>Prep Activity:</b> Learn how to [add a device to the IoT Cloud](https://www.youtube.com/watch?v=sq_l2J4oyLU). Optionally, follow the instructions to create a <b>certificate</b> and <b>policy</b>, and then register a <b>thing</b>.
-
-
-###### AWS Login Instructions
-
-Go to https://offerzen-make.signin.aws.amazon.com/console and use your Github handle and the password you've received from us to log in to AWS. Let us know on Slack if you have any issues.
+* <b>Prep Activity:</b> [Add a device to the IoT Cloud](https://www.youtube.com/watch?v=sq_l2J4oyLU). Then, you can optionally follow the instructions to create a <b>certificate</b> and <b>policy</b>, and then register a <b>thing</b>.
 
 <img src="assets/sphero_logo.jpg" width="40" height="40" align="right" />
 
