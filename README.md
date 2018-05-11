@@ -16,18 +16,10 @@ We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi!
 
 Before you attend the Make Day, there are a couple of basics you should have under your belt. Makers that arrive well prepared get the most out of their Make Days. If you get stuck on any of these, please shout in Make Slack.
 
-### Admin
+### First steps
 
 - [ ] Check the [agenda and location](agenda.md) for the Make Day
 - [ ] Think of one thing you'd like to figure out and share it with your team on [#make-oscar Slack](https://offerzen-make.slack.com/messages/C9XAJF4QK)
-
-### Activities to help you prepare
-
-- [ ] [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard)
-- [ ] [Add a device to the AWS IoT Cloud](#aws-iot)
-- [ ] [Control a virtual Sphero with JavaScript](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript)
-
-## Prep Material
 
 <img src="assets/raspberry_pi_logo.png" width="30" height="35" align="right" />
 
