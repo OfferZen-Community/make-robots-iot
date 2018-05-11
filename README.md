@@ -18,9 +18,8 @@ Before you attend the Make Day, there are a couple of basics you should have und
 
 ### Admin
 
-- [ ] Say hi on the #make-oscar Slack channel :)
 - [ ] Check the [agenda and location](agenda.md) for the Make Day
-- [ ] Think of one thing you'd like to figure out and share it with your team on #make-oscar
+- [ ] Think of one thing you'd like to figure out and share it with your team on [#make-oscar Slack](https://offerzen-make.slack.com/messages/C9XAJF4QK)
 
 ### Activities to help you prepare
 
