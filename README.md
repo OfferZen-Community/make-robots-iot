@@ -54,7 +54,7 @@ The OS we'll be using is Raspbian, which is a Debian-based Linux distro that is 
 
 <i>If you knew the state of every thing in the world, and could reason on top of the data: What problems would you solve?</i>
 
-IoT simply means that devices are connected to the internet and are sending and receiving data or instructions to and from an IoT platform. AWS provides [several services](https://aws.amazon.com/iot/) for managing IoT devices. We'll be using the [AWS IoT Core](https://aws.amazon.com/iot-core/) service for connecting and managing our Spheros. If you are completely new to IoT, then watch <u>[this fantastic introduction](https://www.youtube.com/watch?v=WAp6FHbhYCk)</u> to AWS IoT to get a better idea.
+IoT simply means that devices are connected to the internet and are sending and receiving data or instructions to and from an IoT platform. AWS provides [several services](https://aws.amazon.com/iot/) for managing IoT devices. We'll be using the [AWS IoT Core](https://aws.amazon.com/iot-core/) service for connecting and managing our Spheros. If you are completely new to IoT, then watch <b>[this fantastic introduction](https://www.youtube.com/watch?v=WAp6FHbhYCk)</b> to AWS IoT to get a better idea.
 
 * <b>Prep Activity:</b> Learn how to [add a device to the IoT Cloud](https://www.youtube.com/watch?v=sq_l2J4oyLU) and follow the instructions to create a <b>certificate</b> and <b>policy</b>, and then register a <b>thing</b>.
 
