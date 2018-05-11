@@ -14,7 +14,9 @@ We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi!
 
 ## Preparing for the Make Day
 
-Before you attend the Make Day, there are a couple of basics you should have under your belt. Makers that arrive well prepared get the most out of their Make Days. If you get stuck on any of these, please shout in Make Slack.
+Before you attend the Make Day, there are a couple of basics you should have under your belt. Makers that arrive well prepared get the most out of their Make Days.
+
+We've compiled an introduction to the technologies you'll be playing with, as well as some activities you can run through. If you get stuck on any of these, please shout in Make Slack.
 
 ### First steps
 
