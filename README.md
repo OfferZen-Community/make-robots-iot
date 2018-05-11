@@ -5,6 +5,8 @@
 
 ------
 
+<br>
+
 ## Welcome
 
 We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi!
