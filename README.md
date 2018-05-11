@@ -19,14 +19,10 @@ We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi!
 
 Before you come to the Make Day, there are a couple of basics you need to have under your belt. Complete the items on this checklist and you’ll be ready to take on the challenges of the Make Day. If you get stuck on any of these, please shout in Make Slack.
 
-<br>
-
 ### Admin
 
 - [ ] Join the [Make Slack Team]() <b>TODO: ADD LINK</b>
 - [ ] Ensure you know the [agenda and location](agenda.md) for the Make Day
-
-<br>
 
 ### Tech Prep
 
