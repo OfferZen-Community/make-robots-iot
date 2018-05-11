@@ -63,7 +63,7 @@ The robot we'll be using is the [Sphero Sprk+](https://www.sphero.com/sprk-plus)
 
 You're going to be controlling Sphero programmatically - first locally with a Raspberry Pi, and then via the AWS IoT Service. We'll be using the [official Sphero Javascript SDK](https://github.com/orbotix/sphero.js). Since you (probably) don't have a Sphero at home, we've created a small Javascript project that will get you familiar with Sphero's basic commands.
 
-* <b>Prep Activity: </b> [Learn to Control Sphero Programmatically](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript).
+* <b>Prep Activity: </b> [Control a virtual Sphero with JavaScript](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript).
 
 There is a fantastic robotics/IoT framework written in [Go called Gobot](https://gobot.io/). If you love Go and/or you want to challenge yourself during the day, then check out [the repo](https://github.com/hybridgroup/gobot) and look at the Sphero Sprk+ examples. <b>Be warned</b>, this is not an official SDK and we've not (as yet) done extensive testing for Sphero with Gobot! Make Day is about exploring, playing and learning, so feel free to go for it if you are up for the challenge :).
 
