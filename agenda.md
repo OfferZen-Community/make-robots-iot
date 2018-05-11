@@ -24,7 +24,7 @@ There is no permanent Make Space in Jhb. Please see the event details and make s
 | 10h00 - 12h30 | Play with Sphero |
 | 12h30 - 13h00 | Lunch |
 | 13h00 - 16h30 | Connect Sphero to IoT cloud |
-| 16h30 - 17h00 | Group discussion about learning & drinks|
+| 16h30 - 18h00 | Group discussion about learning & drinks|
 
 
 ## Purpose of the day
