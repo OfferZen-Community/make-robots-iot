@@ -44,7 +44,7 @@ IoT simply means that devices are connected to the internet and are sending and 
 
 * <b>Prep Activity:</b> [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard).
 
-* <b>Prep Activity:</b> [Add a device to the IoT Cloud](https://www.youtube.com/watch?v=sq_l2J4oyLU). Then, you can optionally follow the instructions to create a <b>certificate</b> and <b>policy</b>, and then register a <b>thing</b>.
+* <b>Prep Activity:</b> Watch the video and learn how to [add a device to the IoT Cloud](https://www.youtube.com/watch?v=sq_l2J4oyLU). Then, you can optionally follow the instructions to create a <b>certificate</b> and <b>policy</b>, and then register a <b>thing</b>.
 
 <img src="assets/sphero_logo.jpg" width="40" height="40" align="right" />
 
