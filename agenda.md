@@ -10,20 +10,21 @@
 <b>Parking:</b> The Lifestyle centre on Kloof Street has parking and is a short walk from the Make Space. We will reimburse you for the parking :smiley:
 
 <!-- ### Johannesburg
-
 There is no permanent Make Space in Jhb. Please see the event details and make sure you are on Make Slack to receive updates. -->
 
 ## Agenda
 
-| Time    | Activity    |
-|-----|-----|
-| 9h00 - 9h30 | Breakfast Meet and Greet |
-| 9h30 - 9h40 | Welcome and Introductions |
-| 9h45 - 10h15 | Intro to Raspberry Pi, Sphero and AWS IoT cloud |
-| 10h15 - 12h15 | Play with Sphero |
-| 12h15 - 13h15 | Lunch |
-| 13h15 - 16h00 | Connect Sphero to IoT cloud |
-| 16h00 - 17h00 | Group discussion about learning & drinks|
+| Time          | Activity    |
+|---------------|-------------|
+| 8h00  - 8h30  | Breakfast Meet and Greet |
+| 8h30  - 9h00  | Welcome and Introductions |
+| 9h00  - 9h15  | What is Make ? |
+| 9h15  - 9h30  | Intro to Raspberry Pi, Sphero and AWS IoT cloud |
+| 9h30  - 10h00 | Break and teaming up |
+| 10h00 - 12h30 | Play with Sphero |
+| 12h30 - 13h00 | Lunch |
+| 13h00 - 16h30 | Connect Sphero to IoT cloud |
+| 16h30 - 17h00 | Group discussion about learning & drinks|
 
 
 ## Purpose of the day
