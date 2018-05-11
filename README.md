@@ -50,7 +50,7 @@ The OS we'll be using is Raspbian, which is a Debian-based Linux distro that is 
 
 <img src="assets/aws_iot_logo.png" width="40" height="40" align="right" />
 
-#### AWS IoT
+### AWS IoT
 
 <i>If you knew the state of every thing in the world, and could reason on top of the data: What problems would you solve?</i>
 
