@@ -21,7 +21,8 @@ We've compiled an introduction to the technologies you'll be playing with, as we
 ### First steps
 
 - [ ] Check the [agenda and location](agenda.md) for the Make Day
-- [ ] Think of one thing you'd like to figure out and share it with your team on [#make-oscar Slack](https://offerzen-make.slack.com/messages/C9XAJF4QK)
+- [ ] Say hi to your team on Slack
+- [ ] Run through this doc and try out the prep activities
 
 <img src="assets/raspberry_pi_logo.png" width="30" height="35" align="right" />
 
