@@ -47,4 +47,4 @@ NOTE: If you have any comments/suggestions about the process above then please s
 
 * Check out the Sphero CLI we´ve created here: https://github.com/OfferZen-Make/sphero-cli
 <br>
-* If you want to play around with Gobot, it is already installed. Check out /home/pi/go/src/gobot.io/x/gobot and ask the Make Masters for help. Golang is tricky if you haven´t used it before! ;)
+* If you want to play around with Gobot, it is already installed. Check out `/home/pi/go/src/gobot.io/x/gobot` and ask the Make Masters for help. Golang is tricky if you haven´t used it before! ;)
