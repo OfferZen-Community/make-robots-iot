@@ -9,8 +9,8 @@
 
 <b>Parking:</b> The Lifestyle centre on Kloof Street has parking and is a short walk from the Make Space. We will reimburse you for the parking :smiley:
 
-<!-- ### Johannesburg
-There is no permanent Make Space in Jhb. Please see the event details and make sure you are on Make Slack to receive updates. -->
+### Johannesburg
+[OPEN, 38 West St, Sandown, Sandton, Johannesburg](https://goo.gl/maps/5LLtsJ8f7832)
 
 ## Agenda
 
