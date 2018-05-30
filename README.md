@@ -57,7 +57,7 @@ IoT simply means that devices are connected to the internet and are sending and 
 
 The robot we'll be using is the [Sphero Sprk+](https://www.sphero.com/sprk-plus). Sphero is a Bluetooth Low Energy (BLE) device that can move around and change colour. It has a top speed of 2 meters per second (!) and [you'd be surprised to see](https://www.youtube.com/watch?v=1S5lUDvlu3A) how much it can do.
 
-You're going to be controlling Sphero programmatically - first locally with a Raspberry Pi, and then via the AWS IoT Service. We'll be using the [official Sphero Javascript SDK](https://github.com/orbotix/sphero.js). Since you (probably) don't have a Sphero at home, we've created a small Javascript project that will get you familiar with Sphero's basic commands.
+You're going to be controlling Sphero programmatically - first locally with a Raspberry Pi, and then via the AWS IoT Service. We'll be using the [official Sphero Javascript SDK](https://github.com/orbotix/sphero.js). We've also created a [CLI tool](https://github.com/offerzen-make/sphero-cli) for you to use on the Make Day. Since you (probably) don't have a Sphero at home, we've created a small Javascript project that will get you familiar with Sphero's basic commands.
 
 * <b>Prep Activity: </b> [Control a virtual Sphero with JavaScript](https://github.com/OfferZen-Make/iot_robots-control_virtual_sphero_javascript).
 
