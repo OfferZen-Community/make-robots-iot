@@ -10,7 +10,7 @@
 <b>Parking:</b> The Lifestyle centre on Kloof Street has parking and is a short walk from the Make Space. We will reimburse you for the parking :smiley:
 
 ### Johannesburg
-[OPEN, 38 West St, Sandown, Sandton, Johannesburg](https://goo.gl/maps/5LLtsJ8f7832)
+[OPEN, 138 West St, Sandown, Sandton, Johannesburg](https://goo.gl/maps/5LLtsJ8f7832)
 
 <b>Parking:</b> The parking is across the road from OPEN, and we will have 18 parking spots for the day, so one for every attendee if needed.
 
