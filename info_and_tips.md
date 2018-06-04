@@ -4,10 +4,13 @@
 
 #### Working on the Pi
 
+
 * We've installed the Pi-compatible version of VS-Code. You can open it from the Programming section on the Taskbar, or you can open the directory you're in from the command line with the following command:
 `$ code-oss .`
 
 * If you want to install a different editor or extra extensions then go ahead! Remember that not everything you're used to has an ARM-compatible version.
+
+* If your Pi gets a bit slow then try closing some browser windows. If that fails then do a restart!
 
 
 #### Control the Pi with VNC
@@ -16,13 +19,15 @@ You might want to code on your own machine and not on the Pi itself. In that cas
 
 * Click on the VNC icon on the top-right of the control panel
 
-* Not the IP address of your Pi
+* Note the IP address of your Pi
 
 * Use VNC-Viewer on your own device and connect to the IP Address of your Pi
 
 * You will be asked for a username and password: Enter "pi" and "raspberry" for these
 
 * That´s it!
+
+If you want to `ssh` then that's cool too B-)
 
 
 #### Version Control and Github
@@ -38,7 +43,7 @@ Sharing is good, so contribute to the community by pushing your code to Github! 
 * Push this branch to the repository:
     `$ git push origin groups/sally-mark-thando`
 <br>
-* Since you have been added as a collaborator to the OfferZen-Make team, you have access to the repo and branch from your own account. Therefore go ahead and fork that branch on Github so that you ¨own¨ the code.
+* Since you have been added as a collaborator to the OfferZen-Make team, you have access to the repo and branch from your own account. Therefore go ahead and fork that branch on Github so that you "own" the code.
 
 NOTE: If you have any comments/suggestions about the process above then please send a message to @dan and/or @nuclearnic on Slack :)
 
