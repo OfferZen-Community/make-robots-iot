@@ -20,9 +20,10 @@ We've compiled an introduction to the technologies you'll be playing with, as we
 
 ### First steps
 
-- [ ] Check the [agenda and location](agenda.md) for the Make Day
-- [ ] Say hi to your team on Slack
-- [ ] Run through this doc and try out the prep activities
+- [ ] Get inspired by [previous Makers](https://www.instagram.com/offerzen_make/)
+- [ ] Check the [agenda and location](agenda.md)
+- [ ] Say hi on [Slack](https://offerzen-make.slack.com/)
+- [ ] Read this doc and do the prep activites
 
 <img src="assets/raspberry_pi_logo.png" width="30" height="35" align="right" />
 
