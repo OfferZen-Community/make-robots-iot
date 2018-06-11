@@ -1,7 +1,5 @@
 ## Below are some tips and instructions that might help on Make Day :)
 
------
-
 ### Finding your way around
 
 Inside this folder you'll find the following:
