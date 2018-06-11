@@ -1,8 +1,8 @@
-### Below are some tips and instructions that might help on Make Day :)
+## Below are some tips and instructions that might help on Make Day :)
 
 -----
 
-#### Finding your way around
+### Finding your way around
 
 Inside this folder you'll find the following:
 
@@ -14,13 +14,13 @@ Inside this folder you'll find the following:
 https://github.com/OfferZen-Make/sphero-cl
 
 
-#### Version Control and Github
+### Version Control and Github
 
 Sharing is good, so contribute to the community by pushing your code to Github! Also, you probably want to have the code on your own Github profile. The `readme` in the `/projects` folder describes how you'll go about doing that.
 
 NOTE: If you have any comments/suggestions about the process above then please send a message to @dan and/or @nuclearnic on Slack :)
 
-#### Working on the Pi
+### Working on the Pi
 
 
 * We've installed the Pi-compatible version of VS-Code. <b>Note</b> that some Makers have found this a bit slow! You can open it from the Programming section on the Taskbar, or you can open the directory you're in from the command line with the following command:
@@ -33,7 +33,7 @@ NOTE: If you have any comments/suggestions about the process above then please s
 * If your Pi gets a bit slow then try closing some browser windows. If that fails then do a restart!
 
 
-#### Control the Pi with VNC
+### Control the Pi with VNC
 
 You might want to code on your own machine and not on the Pi itself. In that case, you can control the Pi from your own machine with VNC. Here's how to do it:
 
@@ -50,7 +50,7 @@ You might want to code on your own machine and not on the Pi itself. In that cas
 If you want to `ssh` then that's cool too B-)
 
 
-#### Javascript Snippets that might help
+### Javascript Snippets that might help
 
 * Chaining mulitple Sphero commands with <b>promises</b> and delays
 ```javascript
@@ -97,7 +97,7 @@ let interval = setInterval(() => {
 }, 1000);
 ```
 
-#### Additional Info and Resources
+### Additional Info and Resources
 
 * If you want to play around with Gobot, it is already installed. Check out `/home/pi/go/src/gobot.io/x/gobot` and ask the Make Masters for help. Golang is tricky if you haven´t used it before! ;)
 
