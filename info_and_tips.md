@@ -52,30 +52,33 @@ If you want to `ssh` then that's cool too B-)
 
 * Chaining mulitple Sphero commands with <b>promises</b> and delays:
 ```javascript
-orb.color("green").roll(50,180).delay(1000).then(() => {
-  return orb.color("red").roll(50,270).delay(2000)
-}).then(() => {
-  return orb.roll(100, 0)
-})
+async function instructions() {
+  await orb.color("green").roll(50,180).delay(1000);
+  await orb.roll(100,0).delay(200);
+}
+orb.connect(instructions)
 ```
 
 * Using `setTimeout` to calibrate Sphero:
 ```javascript
-orb.startCalibration();
-setTimeout(() => {
+async function calibrate(afterCalibration) {
+  orb.startCalibration();
+  await orb.color("green").delay(3000);
   orb.finishCalibration();
-  // rest of code goes here
-}, 3000)
-// not here
+  afterCalibration();
+}
+calibrate(() => {
+  // post-calibration instructions
+});
 ```
 
 * Using `setInterval` to flash green and red forever:
 ```javascript
-setInterval(() => {
-  orb.color("red").delay(500).then(() => {
-    return orb.color("green");
-  })
-}, 1000);
+async function flashColors() {
+  await orb.color("red").delay(500);
+  orb.color("green");
+}
+let flashInterval = setInterval(flashColors, 1000);
 ```
 
 * When using `setInterval`, you can `clearInterval` to exit the delayed loop. The code below will change Sphero's colour 10 times then exit:
