@@ -50,7 +50,7 @@ If you want to `ssh` then that's cool too B-)
 
 ### Javascript Snippets that might help
 
-* Chaining mulitple Sphero commands with <b>promises</b> and delays
+* Chaining mulitple Sphero commands with <b>promises</b> and delays:
 ```javascript
 orb.color("green").roll(50,180).delay(1000).then(() => {
   return orb.color("red").roll(50,270).delay(2000)
@@ -59,7 +59,7 @@ orb.color("green").roll(50,180).delay(1000).then(() => {
 })
 ```
 
-* Using `setTimeout` to calibrate Sphero
+* Using `setTimeout` to calibrate Sphero:
 ```javascript
 orb.startCalibration();
 setTimeout(() => {
@@ -69,7 +69,7 @@ setTimeout(() => {
 // not here
 ```
 
-* Using `setInterval` to flash green and red forever.
+* Using `setInterval` to flash green and red forever:
 ```javascript
 setInterval(() => {
   orb.color("red").delay(500).then(() => {
@@ -78,7 +78,7 @@ setInterval(() => {
 }, 1000);
 ```
 
-* When using `setInterval`, you can `clearInterval` to exit the delayed loop. The code below will change Sphero's colour 10 times then exit.
+* When using `setInterval`, you can `clearInterval` to exit the delayed loop. The code below will change Sphero's colour 10 times then exit:
 ```javascript
 let i = 0
 
