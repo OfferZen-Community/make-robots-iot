@@ -79,7 +79,7 @@ async function instructions() {
   orb.color("green")
   await orb.roll(50,180).delay(3000)
   await orb.roll(100,0).delay(3000)
-  await orb.roll(200,180).delay(3000)
+  await orb.roll(200,180)
 }
 orb.connect(instructions)
 ```
