@@ -44,7 +44,7 @@ NOTE: If you have any comments/suggestions about the process above then please s
 ### Working on the Pi
 
 * We've installed the Pi-compatible version of VS-Code. <b>Note</b> that some Makers have found this a bit slow! You can open it from the Programming section on the Taskbar, or you can open the directory you're in from the command line with the following command:
-`$ code-oss .`
+`code-oss .`
 
 * A very lightweight editor you can use is called Geany.
 
@@ -72,52 +72,63 @@ If you want to `ssh` then that's cool too B-)
 
 ### Javascript Snippets that might help
 
-* Chaining mulitple Sphero commands with <b>promises</b> and delays:
+* Chaining mulitple Sphero commands with <i>async/await</i> and delays:
+
 ```javascript
 async function instructions() {
-  await orb.color("green").roll(50,180).delay(1000);
-  await orb.roll(100,0).delay(200);
+  orb.color("green")
+  await orb.roll(50,180).delay(3000)
+  await orb.roll(100,0).delay(3000)
+  await orb.roll(200,180).delay(3000)
 }
 orb.connect(instructions)
 ```
 
-* Using `setTimeout` to calibrate Sphero:
+* Using <i>async/await</i> and delay to calibrate Sphero:
+
 ```javascript
-async function calibrate(afterCalibration) {
-  orb.startCalibration();
-  await orb.color("green").delay(3000);
-  orb.finishCalibration();
-  afterCalibration();
-}
-calibrate(() => {
+async function instructions() {
   // post-calibration instructions
-});
+}
+async function calibrate() {
+  orb.startCalibration();
+  await orb.color("red").delay(3000)
+  orb.finishCalibration()
+  instructions()
+}
+orb.connect(calibrate)
 ```
 
 * Using `setInterval` to flash green and red forever:
+
 ```javascript
-async function flashColors() {
-  await orb.color("red").delay(500);
-  orb.color("green");
+async function flashForever() {
+  setInterval(async () => {
+    await orb.color("green").delay(1000)
+    await orb.color("red")
+  }, 2000);
 }
-let flashInterval = setInterval(flashColors, 1000);
+orb.connect(flashForever)
 ```
 
 * When using `setInterval`, you can `clearInterval` to exit the delayed loop. The code below will change Sphero's colour 10 times then exit:
+
 ```javascript
-let i = 0
+async function flashForTenSeconds() {
+  let i = 0
 
-let interval = setInterval(() => {
-  orb.color("red").delay(500).then(() => {
-    return orb.color("green");
-  })
-
-  if (i == 9) {
-    clearInterval(interval)
-  }
-
-  i += 1
-}, 1000);
+  let interval = setInterval(async () => {
+    await orb.color("green").delay(1000)
+    await orb.color("red")
+    console.log(i)
+    if(i == 4){
+      console.log('how')
+      clearInterval(interval)
+    }
+    i += 1
+  }, 2000);
+}
+orb.connect(flashForever)
 ```
 
 ### Additional Info and Resources
