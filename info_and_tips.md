@@ -128,7 +128,7 @@ async function flashForTenSeconds() {
     i += 1
   }, 2000);
 }
-orb.connect(flashForever)
+orb.connect(flashForTenSeconds)
 ```
 
 ### Additional Info and Resources
