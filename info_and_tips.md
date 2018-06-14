@@ -9,7 +9,7 @@ Inside the `iot_robots` folder you'll find the following:
 * The `/projects` folder is where you'll do more interesting things like combine different activities or try out one your ideas. There are example projects there and some other ideas you might want to try out. All of this is described in the `README`.
 
 * We've created a Sphero-CLI tool to get you started super quick. Have a look inside `/resources` to find it. The repo is here:
-https://github.com/OfferZen-Make/sphero-cl
+https://github.com/OfferZen-Make/sphero-cli
 
 #### List of our Sphero IDs
 
