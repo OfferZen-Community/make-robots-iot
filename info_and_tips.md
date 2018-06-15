@@ -19,7 +19,7 @@ To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Li
 | Sphero Label | Device name	  | MAC address       | Device ID                        |
 | -------------| -------------- | ----------------- | -------------------------------- |
 | A            | SK-5186        | F8:CC:A1:A7:51:86	| |
-| B            | SK-7D19        | FF:AF:08:F6:7D:19	| |
+| B            | SK-7D19        | FF:AF:08:F6:7D:19	| 3e35859590014eaea8ed68eb3d5874f2 |
 | C            | SK-BEAD        | EB:76:90:85:BE:AD	| 38a2cd60b8f14032896de2c9739d5ffe |
 | D            | SK-40A2        | F5:77:55:BE:40:A2	| |
 | E            | SK-C345        | E0:01:D9:64:C3:45	| |
