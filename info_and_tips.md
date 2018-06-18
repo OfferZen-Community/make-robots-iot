@@ -11,6 +11,14 @@ Inside the `iot_robots` folder you'll find the following:
 * We've created a Sphero-CLI tool to get you started super quick. Have a look inside `/resources` to find it. The repo is here:
 https://github.com/OfferZen-Make/sphero-cli
 
+#### Controlling Sphero
+
+* Our documentation of Sphero's commands is in the readme of the [Sphero-CLI tool](https://github.com/OfferZen-Make/sphero-cli).
+
+* The official SDK has a number of examples that show off what Sphero can do. [Check them out here](https://github.com/orbotix/sphero.js/tree/master/examples)
+
+* The official SDK has a [Javascript API section on their website](https://sdk.sphero.com/community-apis/javascript-sdk/). Makers haven't found this super useful, so try the above two first!
+
 #### List of our Sphero IDs
 
 To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Linux (which is running on the Pi) the argument is the device's MAC address and on macOS it is the Device ID. If your Sphero's Device ID is not in the table below then ask us to help you find it :)
@@ -42,9 +50,6 @@ Sharing is good, so contribute to the community by pushing your code to Github! 
 NOTE: If you have any comments/suggestions about the process above then please send a message to @dan and/or @nuclearnic on Slack :)
 
 ### Working on the Pi
-
-* We've installed the Pi-compatible version of VS-Code. <b>Note</b> that some Makers have found this a bit slow! You can open it from the Programming section on the Taskbar, or you can open the directory you're in from the command line with the following command:
-`code-oss .`
 
 * A very lightweight editor you can use is called Geany.
 
