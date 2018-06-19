@@ -35,7 +35,7 @@ To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Li
 | G            | SK-0EC0        | FD:94:C6:CA:0E:C0	| |
 | H            | SK-70C4        | E8:CC:F3:D0:70:C4	| 6542b255dc1741089e5fa58752f67fea |
 | I            | SK-EC32        | C7:8A:28:6D:EC:32	| |
-| J            | SK-76D8        | CB:68:ED:5F:76:D8	| |
+| J            | SK-76D8        | CB:68:ED:5F:76:D8	| 2493f27408cc41ad82b6abb323555f5b |
 | K            | SK-2368        | E6:EA:05:40:23:68	| |
 | L            | SK-E1F8        | C2:92:5C:11:E1:F8	| |
 | O            | SK-5FCA        | F4:C3:EB:77:5F:CA	| |
