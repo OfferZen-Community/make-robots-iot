@@ -37,7 +37,7 @@ To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Li
 
 <b>On your Pi, just run the following on the command line to get a list of the Sphero IDs:</b>
 
-`print-spero-list`
+`print-sphero-list`
 
 Alternatively, you can just look it up in the table below.
 
