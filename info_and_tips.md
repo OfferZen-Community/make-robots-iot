@@ -11,6 +11,18 @@ Inside the `iot_robots` folder you'll find the following:
 * We've created a Sphero-CLI tool to get you started super quick. Have a look inside `/resources` to find it. The repo is here:
 https://github.com/OfferZen-Make/sphero-cli
 
+#### Protips
+
+* Sphero's collision detection function is very unreliable!
+
+* When connecting an IoT device to AWS programmatically, each Client ID must be unique. This becomes important when you <i>subscribe</i> with one device and <i>publish</i> with another.
+
+* Technically it is possible to connect multiple Spheros to a Pi, but this requires hacking the bluetooth device implementation in Sphero.js.
+
+* You can quickly and easily print the list of all Spheros with their details by running `print-sphero-list` in the terminal.
+
+* Don't spend too much time in Sphero-CLI! :) It's just there to teach you Sphero commands.
+
 #### Controlling Sphero
 
 * Our documentation of Sphero's commands is in the readme of the [Sphero-CLI tool](https://github.com/OfferZen-Make/sphero-cli).
@@ -21,8 +33,13 @@ https://github.com/OfferZen-Make/sphero-cli
 
 #### List of our Sphero IDs
 
-To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Linux (which is running on the Pi) the argument is the device's MAC address and on macOS it is the Device ID. If your Sphero's Device ID is not in the table below then ask us to help you find it :)
+To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Linux (which is running on the Pi) the argument is the device's MAC address and on macOS it is the Device ID.
 
+<b>On your Pi, just run the following on the command line to get a list of the Sphero IDs:</b>
+
+`print-spero-list`
+
+Alternatively, you can just look it up in the table below.
 
 | Sphero Label | Device name	  | MAC address       | Device ID                        |
 | -------------| -------------- | ----------------- | -------------------------------- |
@@ -38,6 +55,7 @@ To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Li
 | J            | SK-76D8        | CB:68:ED:5F:76:D8	| 2493f27408cc41ad82b6abb323555f5b |
 | K            | SK-2368        | E6:EA:05:40:23:68	| |
 | L            | SK-E1F8        | C2:92:5C:11:E1:F8	| |
+| M            | SK-B7DC        | CC:A9:1E:50:B7:DC | 5cb4cdd41c1b4b0b8b5b0c185458b31b |
 | O            | SK-5FCA        | F4:C3:EB:77:5F:CA	| |
 | P            | SK-E8F5        | C1:EA:BB:43:E8:F5 | |
 
