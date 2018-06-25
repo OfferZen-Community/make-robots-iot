@@ -21,7 +21,7 @@ https://github.com/OfferZen-Make/sphero-cli
 
 * You can quickly and easily print the list of all Spheros with their details by running `print-sphero-list` in the terminal.
 
-* Don't spend too much time in Sphero-CLI! :) It's just there to teach you Sphero commands.
+* Don't spend too much time in Sphero-CLI! :) It's just there to try out Sphero commands.
 
 #### Controlling Sphero
 
