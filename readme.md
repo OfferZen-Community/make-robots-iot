@@ -46,7 +46,7 @@ IoT simply means that devices are connected to the internet and are sending and 
 
 * <b>Prep Activity:</b> [PubSub via AWS Dashboard](https://github.com/OfferZen-Make/iot_robots-pub_sub_via_aws_dashboard).
 
-* <b>Prep Activity:</b> Follow [this guide](https://github.com/OfferZen-Make/iot_robots-activity-create_aws_thing) and create a <b>thing, create and attach a <b>certificate</b> to your thing, and attach a <b>policy</b> to your certificate.
+* <b>Prep Activity:</b> Follow [this guide](https://github.com/OfferZen-Make/iot_robots-activity-create_aws_thing) and create a <b>thing</b>, create and attach a <b>certificate</b> to your thing, and attach a <b>policy</b> to your certificate.
 
 * <b>Prep Activity:</b> Use your newfound PubSub knowledge to [solve a PubSub riddle with Javascript](https://github.com/OfferZen-Make/iot_robots-activity-pubsub_with_javascript) :).
 
