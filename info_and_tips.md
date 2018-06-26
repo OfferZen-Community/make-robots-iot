@@ -19,7 +19,7 @@ https://github.com/OfferZen-Make/sphero-cli
 
 * Technically it is possible to connect multiple Spheros to a Pi, but this requires hacking the bluetooth device implementation in Sphero.js.
 
-* You can quickly and easily print the list of all Spheros with their details by running `print-sphero-list` in the terminal.
+* You can quickly and easily print the list of all Spheros with their details by running `sphero-list` in the terminal.
 
 * Don't spend too much time in Sphero-CLI! :) It's just there to try out Sphero commands.
 
@@ -37,7 +37,7 @@ To connect to your Sphero, you need to tell your Pi which Sphero is yours. On Li
 
 <b>On your Pi, just run the following on the command line to get a list of the Sphero IDs:</b>
 
-`print-sphero-list`
+`sphero-list`
 
 Alternatively, you can just look it up in the table below.
 
