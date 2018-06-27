@@ -7,7 +7,7 @@
 
 ## Welcome
 
-We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi!
+We're connecting a Sphero robot to the AWS IoT Cloud via a Raspberry Pi! Invite others to apply [here](https://make.offerzen.com/course/iot-robots/).
 
 <b>The aim of the day is to learn new things. You do not need to achieve specific goals.</b> The agenda of the day caters for varying levels of experience and different people will learn different things by playing with the same tools.
 
