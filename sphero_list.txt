@@ -18,3 +18,12 @@ P     	SK-E8F5	     C1:EA:BB:43:E8:F5
 R       SK-078A      C3:38:5B:A9:07:8A
 S       SK-07FD      F5:78:78:40:07:FD
 T       SK-183B      DF:26:15:30:18:3B 
+U       SK-B64C      C0:DE:78:73:B6:4C
+V       SK-ED4A      D8:AA:0C:8A:ED:4A
+W       SK-72F4      C4:16:C0:E5:72:F4
+X       SK-B0CB      ED:B0:73:57:B0:CB
+Y       SK-EA41      E6:C9:53:A9:EA:41
+Z       SK-C210      CB:E7:65:C7:C2:10
+30      SK-9C05      CB:87:CA:FE:9C:05
+31      SK-B9B0      F6:6A:E3:22:B9:B0
+32      SK-74A3      DA:C8:31:77:74:A3
